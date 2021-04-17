@@ -2,13 +2,18 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    es6: true,
+    es2021: true,
     node: true,
   },
   extends: [
+    'plugin:vue/vue3-recommended',
+    'eslint:recommended',
+    '@vue/typescript/recommended',
     'airbnb-base',
-    'plugin:vue/recommended',
   ],
+  parserOptions: {
+    ecmaVersion: 2021,
+  },
   plugins: [
   ],
   // add your custom rules here
@@ -32,6 +37,8 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
     'vue/comment-directive': 0,
     'max-len': [1, 150, 4],
+    '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
   settings: {
     'import/core-modules': [
