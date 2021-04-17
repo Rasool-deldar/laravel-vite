@@ -22,6 +22,7 @@ module.exports = {
     'import/no-unresolved': 0,
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/prefer-default-export': 'off',
     'no-param-reassign': [
       'error',
       {

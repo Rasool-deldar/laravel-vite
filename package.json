@@ -8,6 +8,7 @@
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^4.22.0",
         "@typescript-eslint/parser": "^4.22.0",
+        "@types/ziggy-js": "^1.0.1",
         "@vitejs/plugin-legacy": "^1.3.2",
         "@vitejs/plugin-vue": "^1.1.4",
         "@vue/compiler-sfc": "^3.0.5",
@@ -29,6 +30,8 @@
         "@inertiajs/inertia": "^0.8.7",
         "@inertiajs/inertia-vue3": "^0.3.13",
         "@inertiajs/progress": "^0.2.4",
-        "vue": "^3.0.5"
+        "vue": "^3.0.5",
+        "ziggy": "^2.4.0",
+        "ziggy-js": "^1.1.0"
     }
 }

@@ -11,8 +11,11 @@
 
 import { createApp, h } from 'vue';
 import { App, plugin } from '@inertiajs/inertia-vue3';
-import 'vite/dynamic-import-polyfill';
 import { InertiaProgress } from '@inertiajs/progress';
+// @ts-ignore
+import { ZiggyVue } from 'ziggy';
+import { Ziggy } from './ziggy';
+import 'vite/dynamic-import-polyfill';
 
 InertiaProgress.init();
 
@@ -28,4 +31,4 @@ createApp({
       return page.default;
     },
   }),
-}).use(plugin).mount(el);
+}).use(plugin).use(ZiggyVue, Ziggy).mount(el);
