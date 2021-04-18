@@ -22,6 +22,24 @@
             ],
             "@/*": [
                 "resources/*"
+            ],
+            "@css": [
+                "resources/css/*"
+            ],
+            "@scss": [
+                "resources/scss/*"
+            ],
+            "@js": [
+                "resources/js/*"
+            ],
+            "@images": [
+                "resources/images/*"
+            ],
+            "@scripts": [
+                "resources/scripts/*"
+            ],
+            "@components": [
+                "resources/views/components/*"
             ]
         },
     },
