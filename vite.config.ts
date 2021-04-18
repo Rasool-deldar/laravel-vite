@@ -38,7 +38,7 @@ export default defineConfig({
     vue(),
     legacy({
       targets: ['defaults'],
-      polyfills: ['es.promise.finally', 'es/map', 'es/set'],
+      polyfills: true,
       modernPolyfills: true,
       renderLegacyChunks: true,
     }),
